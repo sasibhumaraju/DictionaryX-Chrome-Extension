@@ -1,0 +1,27 @@
+English
+Hindi 
+Bengali 
+Marathi 
+Telugu 
+Tamil 
+Gujarati 
+Urdu 
+Kannada 
+Odia 
+Malayalam 
+Punjabi 
+Assamese 
+Mandarin
+Spanish
+French
+Arabic
+Russian
+Portuguese
+Urdu
+Indonesian 
+German
+Japanese
+Nigerian Pidgin
+Turkish
+Yue Chinese
+Vietnamese

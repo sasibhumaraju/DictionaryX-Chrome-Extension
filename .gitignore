@@ -1,0 +1,3 @@
+/dictionary/node_modules/*
+/dictionary/dist
+/dictionary/package-lock.json

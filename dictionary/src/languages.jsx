@@ -1,0 +1,30 @@
+const languages =  [
+    { lang: "English - English", code: "en" },
+    { lang: "Hindi - हिंदी", code: "hi" },
+    { lang: "Bengali - বাংলা", code: "bn" },
+    { lang: "Marathi - मराठी", code: "mr" },
+    { lang: "Telugu - తెలుగు", code: "te" },
+    { lang: "Tamil - தமிழ்", code: "ta" },
+    { lang: "Gujarati - ગુજરાતી", code: "gu" },
+    { lang: "Urdu - اردو", code: "ur" },
+    { lang: "Kannada - ಕನ್ನಡ", code: "kn" },
+    { lang: "Odia - ଓଡ଼ିଆ", code: "or" },
+    { lang: "Malayalam - മലയാളം", code: "ml" },
+    { lang: "Punjabi - ਪੰਜਾਬੀ", code: "pa" },
+    // { lang: "Assamese - অসমীয়া", code: "as" },
+    { lang: "Mandarin - 中文", code: "zh" },
+    { lang: "Spanish - Español", code: "es" },
+    { lang: "French - Français", code: "fr" },
+    { lang: "Arabic - العربية", code: "ar" },
+    { lang: "Russian - Русский", code: "ru" },
+    { lang: "Portuguese - Português", code: "pt" },
+    { lang: "Indonesian - Bahasa Indonesia", code: "id" },
+    { lang: "German - Deutsch", code: "de" },
+    { lang: "Japanese - 日本語", code: "ja" },
+    // { lang: "Nigerian Pidgin - Naijá", code: "pcm" },
+    // { lang: "Turkish - Türkçe", code: "tr" },
+    // { lang: "Yue Chinese (Cantonese) - 粵語", code: "yue" },
+    // { lang: "Vietnamese - Tiếng Việt", code: "vi" }
+  ];
+
+  export default languages;

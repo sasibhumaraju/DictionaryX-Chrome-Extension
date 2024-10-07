@@ -1,0 +1,277 @@
+/* * {
+  background-color: red;
+} */
+/* @import url('fonts.css');
+@font-face {
+  font-family: 'Lato' ;
+  font-style: normal ;
+  font-weight: 400 ;
+  src: local('Lato'), local('Lato');
+} */
+
+
+/* #dailog_dictionary_x {
+  background-color:rgba(26, 25, 25, 0.9) !important;
+  border-radius: 10px !important;
+  text-overflow:clip !important;
+  text-wrap:wrap !important;
+ 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(240, 32, 112,0.25) 0px 50px 100px -20px, rgba(240, 32, 112,0.3) 0px 30px 60px -30px !important;
+  position: fixed!important;
+  top: 10px !important; 
+  left: calc(100% - 350px) !important;
+  width: 350px !important;
+  height: 380px !important;
+  padding: 0% !important;
+  margin: 0% !important;
+  outline: #F02070 1px solid !important;
+  border: none !important;
+  overflow: hidden !important;
+  font-family: 'Product Sans' !important; 
+  color: white !important;
+  background-color: #610C9F;
+  background-color: rgb(40, 40, 40) !important;
+ 
+}
+
+
+.open {
+  animation: slide_from_left_to_right 0.2s ease-in !important;
+}
+
+.close {
+  animation: slide_from_right_to_left 0.2s ease-in !important;
+}
+
+@keyframes slide_from_right_to_left {
+  0% {
+        
+  }
+  100% {
+    
+  }
+}
+
+@keyframes slide_from_left_to_right {
+  0% {
+      
+  }
+  100% {
+    
+  }
+}
+
+
+.container_dictionary_x {
+  width: calc(100% - 30px) !important;
+  height: 268px !important;
+  overflow-y: auto !important;
+  padding: 10px 15px !important;
+ 
+}
+
+.navbar_dictionary_x {
+  width: calc(100% - 0px) !important;
+  height: 60px !important;
+  padding: 0px 0px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: rgb(0, 0, 0) !important;
+  margin: 0px !important;
+  position: sticky !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold !important;
+  outline: #F02070 1px solid !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  background-color: #940B92 !important;
+  background-color: black !important;
+  cursor: grab !important;
+  
+}
+
+.logo_dictionary_x {
+  width: 44px !important;
+  height: 27px !important;
+  display: flex !important;
+  position: relative !important;
+  filter: drop-shadow(0px 0px 10px #F02070) !important;
+  user-select: none !important;
+}
+
+.image_dictionary_x {
+  width: 25px !important;
+  height: 25px !important;
+  filter: invert() !important;
+  margin-right: 0px !important;
+  color: red !important;
+  -webkit-user-drag: none !important;  
+  user-drag: none !important;   
+}
+
+.logo_name_dictionay_x {
+  font-size: 30px !important;
+  font-family: 'Product Sans' !important;
+  margin-bottom: 60px !important;
+  position: absolute !important;
+  font-weight: bolder !important;
+  font-weight: 900 !important;
+  left: 20px !important;
+  top: -6.5px !important;
+ 
+}
+
+.D_dictionary_x {
+  color: #F02070 !important;
+}
+
+.X_dictionary_x {
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  position: absolute !important;
+  top: 14px !important;
+  left: 13px !important;
+  
+}
+
+.audio_dictionary_x {
+  min-width: 30px !important;
+  height: 30px !important;
+  background-color: #F02070 !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  margin-right: 10px !important;
+}
+
+.title_dictionay_x {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+
+
+.word_dictionary_x {
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  margin-bottom: 2px !important;
+}
+
+.phonetics_dictionary_x {
+  font-size: 12px !important;
+  font-style: italic !important;
+}
+
+.audio {
+  width: 300px !important;
+  height: 40px !important;
+}
+
+#audio_id_dictionary_x {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.card_dictionary_x {
+  width: calc(100% - 20px) !important;
+  padding: 10px 10px !important;
+  border-radius: 8px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  margin-top: 5px !important;
+  margin-bottom: 10px !important;
+}
+
+.title_word_dictionay_x {
+  font-weight: 500 !important;
+  font-size: 17px !important;
+}
+
+.title_dictionay_x ::after {
+  position: absolute !important;
+  background: linear-gradient(to right,transparent, rgb(40, 40, 40)) !important;
+  width: 20px !important;
+  height:24px !important;
+  bottom: 0px !important;
+  right: 0px !important;
+ 
+   content: ' ' !important;
+}
+
+.meaning_box {
+  font-size: 14px !important;
+  font-weight: 100 !important;
+  margin-bottom: 8px !important;
+}
+
+.footer_dictionary_x {
+  width: 100% !important;
+  height: 30px !important;
+  background-color: black !important;
+  border-top: #F02070 1px solid !important;
+  font-size: 9px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.audio_buttons_dictionary_x {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-bottom: 18px !important;
+}
+
+.play_dictionay_x {
+  width: 150px !important;
+  background-color:#F02070 !important;
+  background-color: white !important;
+ 
+  border: none !important;
+  outline: none !important;
+  border-radius: 5px !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+  padding: 5px 10px !important;
+  cursor: pointer !important;
+  color: white !important;
+  color: black !important;
+  height: 30px !important;
+}
+
+.stop_dictionay_x {
+  background-color:#F02070 !important;
+  width: 150px !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 5px !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+  padding: 5px 10px !important;
+  cursor: pointer !important;
+  color: white !important;
+  height: 30px !important;
+}
+
+.play_dictionay_x:hover{
+  background-color: rgb(226, 226, 226) !important;
+  transition: all 0.3s !important;
+}
+
+.stop_dictionay_x:hover{
+  background-color:#c91158 !important;
+  transition: all 0.3s !important;
+} */
+
+
